@@ -89,7 +89,7 @@ def keyInput(evt):
 route = list()
 hosts = list()
 host_ip = gethostname()
-hosts.append([label(text='introduceti adresa web',yoffset=20,line=false)])
+hosts.append([label(text='insert web address here',yoffset=20,line=false)])
 scene.bind('keydown', keyInput)
 scene.bind('click', clicksphere)
 
